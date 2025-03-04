@@ -7,7 +7,7 @@ import {
   setFetchGraphQlHeader,
 } from '@dropins/tools/fetch-graphql.js';
 import * as authApi from '@dropins/storefront-auth/api.js';
-import {initializers} from "../__dropins__/tools/types/elsie/src/lib";
+import { initializers } from '@dropins/tools/initializer.js';
 
 // Libs
 import { getConfigValue, getCookie } from '../configs.js';
